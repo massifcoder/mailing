@@ -58,7 +58,7 @@ export default function LoginForm() {
                     localStorage.setItem('token',token);
                     localStorage.setItem('username',mail);
                     localStorage.setItem('fname',naam);
-                    router.push('/word')
+                    router.push('/mail')
                 }
                 return resp;
             })
@@ -99,7 +99,7 @@ export default function LoginForm() {
                     localStorage.setItem('token',token);
                     localStorage.setItem('username',data.mail);
                     localStorage.setItem('fname',data.name);
-                    router.push('/word')
+                    router.push('/mail')
                     return resp;
               })
               
